@@ -1,0 +1,87 @@
+Ghana Adventures Insight Dashboard
+Customer Insights Report
+
+Prepared by: Priscilla Koramah
+Date: October 2025
+
+1. Project Overview
+
+The Ghana Adventures Insight Dashboard was developed to analyze tourism booking data and uncover trends in customer behavior, sales performance, and seasonal demand.
+The goal was to provide data-driven insights to guide marketing, pricing, and operational decisions for the company.
+
+2. Data and Tools Used
+
+Data Source: Ghana Adventures Excel dataset containing tour bookings, customer demographics, and revenue records.
+
+Tools Used:
+
+Microsoft Power BI – for data visualization and dashboard design
+
+Microsoft Excel – for data cleaning and preparation
+
+DAX (Data Analysis Expressions) – for creating KPI calculations
+
+3. Key Performance Indicators (KPIs)
+KPI	Description
+Total Revenue	Sum of all revenue from bookings
+Total Bookings	Count of all tour bookings
+Average Revenue per Booking	Revenue efficiency per booking
+Total Customers	Number of unique customers
+Repeat Rate	Percentage of customers who made more than one booking
+Average Revenue per Customer	Average spending per customer
+4. Analysis Process
+
+The analysis followed a structured approach that included data cleaning, transformation, DAX measure creation, and visualization.
+
+Key DAX measures created include:
+
+Total Revenue: SUM('Bookings'[Revenue])
+
+Total Bookings: COUNTROWS('Bookings')
+
+Average Revenue per Booking: DIVIDE([Total Revenue], [Total Bookings])
+
+Total Customers: DISTINCTCOUNT('Bookings'[Customer_ID])
+
+Repeat Rate: Ratio of repeat customers to total customers
+
+These measures allowed for detailed performance tracking and comparative analysis across time periods and tour types.
+
+5. Key Insights
+
+Seasonality:
+Bookings peaked in December 2024 and January 2025, showing strong holiday travel trends.
+
+Off-season dip:
+Bookings were significantly lower between May and September, confirming mid-year as the slow season.
+
+Top-performing tours:
+Adventure and cultural tour packages generated the highest number of bookings and revenue.
+
+Repeat customers:
+A moderate percentage of repeat customers was observed — suggesting potential to improve loyalty through targeted marketing or reward programs.
+
+6. Business Recommendations
+
+Targeted Off-Season Campaigns:
+Use early-bird discounts, bundled experiences, and partnership promotions to boost sales during slower months.
+
+Dynamic Pricing:
+Adjust pricing for peak vs. off-peak seasons. Offer limited-time discounts during slow periods to maintain interest and demand.
+
+Tour Optimization:
+Expand top-performing tours and A/B test low-performing ones before discontinuation.
+This ensures that decisions are data-backed rather than based solely on sales volume.
+
+Customer Retention:
+Develop a loyalty or referral program to encourage repeat bookings. Personalized follow-up emails and exclusive offers can further improve customer return rates.
+
+7. Conclusion
+
+The Ghana Adventures Insight Dashboard provides a clear and data-driven understanding of the company’s booking trends, customer behavior, and sales performance.
+
+By acting on these insights — through seasonal marketing, smart pricing, and customer loyalty initiatives — Ghana Adventures can increase profitability, improve customer satisfaction, and maintain consistent growth throughout the year.
+
+✅ Author: Priscilla Koramah
+Role: Data Analyst | Power BI Developer
+📅 October 2025
